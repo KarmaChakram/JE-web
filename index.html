@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jaiswal Electronics | Electronics Store</title>
+  <meta name="description" content="Quality electronics, genuine products and friendly service. Visit us for mobiles, laptops, TVs, accessories and repairs." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="logo">⚡ Jaiswal Electronics</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+      <nav id="navLinks">
+        <a href="#products">Products</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <h1>Your One-Stop Shop for <span>Electronics</span></h1>
+      <p>Genuine products, fair prices and honest advice. From the latest gadgets to everyday essentials.</p>
+      <div class="hero-buttons">
+        <a href="#products" class="btn btn-primary">Browse Products</a>
+        <a href="#contact" class="btn btn-outline">Visit Our Store</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="products">
+    <div class="container">
+      <h2>What We Sell</h2>
+      <p class="subtitle">A wide range of electronics under one roof.</p>
+      <div class="grid">
+        <div class="card"><div class="icon">📱</div><h3>Mobile Phones</h3><p>Latest smartphones from top brands, plus covers and screen guards.</p></div>
+        <div class="card"><div class="icon">💻</div><h3>Laptops &amp; Computers</h3><p>Laptops, desktops, monitors and peripherals for home, school and office.</p></div>
+        <div class="card"><div class="icon">📺</div><h3>TVs &amp; Home Entertainment</h3><p>Smart TVs, speakers, soundbars and streaming devices.</p></div>
+        <div class="card"><div class="icon">🎧</div><h3>Audio &amp; Headphones</h3><p>Earbuds, headphones and Bluetooth speakers for every budget.</p></div>
+        <div class="card"><div class="icon">🔌</div><h3>Accessories</h3><p>Chargers, cables, power banks, memory cards and more.</p></div>
+        <div class="card"><div class="icon">🛠️</div><h3>Repairs &amp; Service</h3><p>Quick, reliable repair for phones, laptops and other devices.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="why-us">
+    <div class="container">
+      <h2>Why Choose Us</h2>
+      <div class="grid grid-4">
+        <div class="feature"><span>✅</span><h3>Genuine Products</h3><p>100% authentic items with proper warranty.</p></div>
+        <div class="feature"><span>💰</span><h3>Fair Prices</h3><p>Competitive pricing with no hidden charges.</p></div>
+        <div class="feature"><span>🤝</span><h3>Honest Advice</h3><p>We help you pick what you actually need.</p></div>
+        <div class="feature"><span>⚙️</span><h3>After-Sales Support</h3><p>We stand behind what we sell.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about">
+      <div>
+        <h2>About Us</h2>
+        <p>
+          We are a local electronics shop serving our community with quality products and friendly service.
+          Whether you need a new phone, a laptop, or a quick repair, our team is here to help you find the right solution.
+        </p>
+        <p>
+          <!-- TODO: Replace this with your shop's own story (since when, family-run, etc.) -->
+          Come visit us in store and see the difference personal service makes.
+        </p>
+      </div>
+      <div class="stats">
+        <div><strong>10+</strong><span>Years of Experience</span></div>
+        <div><strong>5000+</strong><span>Happy Customers</span></div>
+        <div><strong>50+</strong><span>Brands Available</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="contact">
+    <div class="container">
+      <h2>Visit or Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>📍 Address:</strong><br />Shop No. __, Your Street, Your City, State - PIN</p>
+          <p><strong>📞 Phone:</strong><br /><a href="tel:+910000000000">+91 00000 00000</a></p>
+          <p><strong>💬 WhatsApp:</strong><br /><a href="https://wa.me/910000000000" target="_blank" rel="noopener">Chat with us</a></p>
+          <p><strong>✉️ Email:</strong><br /><a href="mailto:you@example.com">you@example.com</a></p>
+          <p><strong>🕘 Opening Hours:</strong><br />Mon – Sat: 10:00 AM – 8:00 PM<br />Sunday: Closed</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" required />
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" />
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" required placeholder="What are you looking for?"></textarea>
+          <button type="submit" class="btn btn-primary">Send via WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jaiswal Electronics. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
