@@ -12,7 +12,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
 
 // Contact form: opens WhatsApp with the message pre-filled.
 // Replace with your number in international format, no "+" or spaces.
-const WHATSAPP_NUMBER = "910000000000";
+const WHATSAPP_NUMBER = "917380529821";
 
 document.getElementById("contactForm").addEventListener("submit", (e) => {
   e.preventDefault();
