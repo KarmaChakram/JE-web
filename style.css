@@ -138,3 +138,15 @@ nav a:hover { color: var(--primary); }
   font-size: .95rem;
   margin-bottom: 0;
 }
+/* Logo beside the shop name */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-img {
+  height: 44px;
+  width: 44px;
+  border-radius: 8px;
+  object-fit: cover;
+}
